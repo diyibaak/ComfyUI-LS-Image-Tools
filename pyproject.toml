@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-ls-image-tools"
+version = "0.1.0"
+description = "ComfyUI image standardization and local Qwen3-VL multi-image prompt tools"
+license = { file = "LICENSE" }
+dependencies = ["numpy", "pillow", "torch", "transformers>=4.57.1", "accelerate"]
+
+[project.urls]
+Repository = "https://github.com/diyibaak/ComfyUI-LS-Image-Tools"
+"Bug Tracker" = "https://github.com/diyibaak/ComfyUI-LS-Image-Tools/issues"
+
+[tool.comfy]
+DisplayName = "LS Image Tools"
